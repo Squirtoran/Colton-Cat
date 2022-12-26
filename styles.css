@@ -1,0 +1,258 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 500px;
+    width: 350px;
+    background-color: #a2d594;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.cat {
+    position: relative;
+    top: 150px;
+    left: 75px;
+}
+
+.face{
+    background-color: #513d41;
+    height: 90px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.head-stripe1, .head-stripe2 {
+    height: 0;
+    width: 0;
+    border-top: 10px solid #262626;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: relative;
+}
+.head-stripe1{
+    bottom: 167px;
+    left: 50px;
+}
+.head-stripe2{
+    bottom: 176px;
+    left: 80px
+}
+
+.whisker{
+    background-color: white;
+    height: 50px;
+    width: 1px;
+    position: relative;
+}
+.whisker1{
+    bottom: 178px;
+    transform: rotate(-60deg);
+    right: 10px
+}
+.whisker2{
+    bottom: 215px;
+    right: 12px;
+    transform: rotate(90deg);
+}
+.whisker3{
+    bottom: 252px;
+    right: 10px;
+    transform: rotate(60deg);
+}
+.whisker4{
+    bottom: 328px;
+    left: 156px;
+    transform: rotate(60deg);
+}
+.whisker5{
+    bottom: 366px;
+    left: 159px;
+    transform: rotate(90deg);
+}
+.whisker6{
+    bottom: 403px;
+    left: 155px;
+    transform: rotate(-60deg);
+}
+
+.ear-l, .ear-r {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #513d41;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+
+.ear-l {
+    bottom: 35px;
+    transform: rotate(-30deg);
+}
+.ear-r {
+    bottom: 85px;
+    left: 110px;
+    transform: rotate(30deg);
+}
+
+.inner1{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-left: 25px solid transparent;
+    right: 25px;
+    position: relative;
+}
+
+.inner2{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-right: 25px solid transparent;
+    position: relative;
+}
+
+.eye-l, .eye-r{
+    background-color: #5db050;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eye-l{
+    bottom: 75px;
+    left: 30px;
+}
+.eye-r{
+    bottom: 105px;
+    left: 90px;
+}
+
+.eyeball{
+    background-color: #262626;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    position: relative;
+    top: 0.5px;
+    left: 0.5px;
+}
+
+.nose{
+    height: 0;
+    width: 0;
+    border-top: 8px solid #d36149;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    bottom: 110px;
+    left: 69px;
+}
+
+.l1, .l2{
+    background-color: #d36149;
+    height: 8px;
+    width: 1px;
+    position: relative;
+}
+.l1 {
+    transform: rotate(45deg);  
+    right: 4px;
+    bottom: 1.5px;
+}
+.l2 {
+    transform: rotate(-45deg);
+    left: 3px;
+    bottom: 9.5px;
+}
+
+.body {
+    background-color: #513d41;
+    height: 120px;
+    width: 130px;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    border-radius: 0 65px 0 0;
+}
+
+
+.back-stripe1, .back-stripe2 {
+    background-color: #262626;
+    height: 40px;
+    width: 20px;
+    position: relative;
+}
+.back-stripe1{
+    bottom: 50px;
+    left: 85px;
+    transform: rotate(60deg);
+    border-radius: 75px 5px 80px 80px;
+}
+
+.back-stripe2 {
+    bottom: 60px;
+    left: 102px;
+    transform: rotate(60deg);
+    border-radius: 15px 80px 65px 65px;
+}
+
+
+.paw-l, .paw-r{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border-radius: 0 0 50% 50%;
+}
+
+.paw-l{
+    top: 110px;
+}
+.paw-r{
+    top: 90px;
+    left: 60px
+}
+
+.tail {
+    background-color: #513d41;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    top: 60px;
+    border-radius: 0 20px 20px 0;
+}
+
+.tail-stripe1, .tail-stripe2 {
+    background-color: #262626;
+    height: 20px;
+    width: 15px;
+    position: relative;
+}
+.tail-stripe1 {
+    left: 35px;
+}
+.tail-stripe2 {
+    bottom: 20px;
+    left: 65px;
+}
+
+.belly {
+    background-color: white;
+    height: 80px;
+    width: 30px;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
